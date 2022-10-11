@@ -1,29 +1,50 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import { Link } from "react-router-dom";
-
+import Stack from "@mui/material/Stack";
+import Button from "@mui/material/Button";
+import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import SourceIcon from "@mui/icons-material/Source";
 
 class Header extends Component {
   render() {
     return (
-      <div>
-        <nav>
-              <ul>
-                <li>
-                </li>
-                  <Link to="/">Home</Link>
-                <li>
-                  <Link to="/about">About Me</Link>
-                
-                </li>
-                <li>
-                  <Link to="/lessons-learned">Lessons Learned</Link>
-                </li>
-								<li>
-                  <Link to="/projects">Projects</Link>
-                </li>
-              </ul>
-            </nav>
-      </div>
+      <Stack className="App-header">
+        <nav className="nav-link">
+          <div className="App-logo">
+            <ArrowBackIosIcon />
+            <h1>Hildelio</h1>
+            <ArrowForwardIosIcon />
+          </div>
+
+          <ul>
+            <li>
+              <Button variant="text">
+                <SourceIcon />
+                <Link to="/">Home</Link>
+              </Button>
+            </li>
+            <li>
+              <Button variant="text">
+                <SourceIcon />
+                <Link to="/about">About Me</Link>
+              </Button>
+            </li>
+            <li>
+              <Button variant="text">
+                <SourceIcon />
+                <Link to="/lessons-learned">Lessons Learned</Link>
+              </Button>
+            </li>
+            <li>
+              <Button variant="text">
+                <SourceIcon />
+                <Link to="/projects">Projects</Link>
+              </Button>
+            </li>
+          </ul>
+        </nav>
+      </Stack>
     );
   }
 }

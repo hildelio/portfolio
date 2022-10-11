@@ -9,7 +9,7 @@ import Error from "../pages/Error";
 class Content extends Component {
   render() {
     return (
-      <div>
+      <div className="App-content">
         <Switch>
           <Route path="/about" component={AboutMe} />
           <Route path="/lessons-learned" component={LessonsLearned} />

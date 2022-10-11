@@ -3,9 +3,10 @@ import React, { Component } from "react";
 class LessonsLearned extends Component {
   render() {
     return (
-      <div>
+      <div className="App-lessons">
         <h3>Things I'm learning to code with</h3>
 
+        <div className="lessons-itens">
         <img
           src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
           alt=""
@@ -54,8 +55,9 @@ class LessonsLearned extends Component {
           src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"
           alt=""
         />
+        </div>
 
-        <p align="center">
+        <p>
           <a href="(https://github.com/hildelio">
             <img
               src="https://github-readme-stats.vercel.app/api?username=hildelio&count_private=true&theme=github_dark&show_icons=true"
@@ -64,7 +66,7 @@ class LessonsLearned extends Component {
           </a>
         </p>
 
-        <p align="center">
+        <p>
           <a href="https://github.com/hildelio/">
             <img
               src="https://github-readme-stats.vercel.app/api/top-langs/?username=hildelio&layout=compact&theme=github_dark&show_icons=true"
@@ -73,19 +75,19 @@ class LessonsLearned extends Component {
           </a>
         </p>
 
-        <p align="center">
+        <p>
           <a href="(https://github.com/hildelio">
             <img
-              align="center"
+            
               src="http://github-readme-streak-stats.herokuapp.com?user=hildelio&theme=github-dark&date_format=j%20M%5B%20Y%5D&border=FFFFFF"
               alt=""
             />
           </a>
         </p>
 
-        <h3 align="center">Languages and Tools:</h3>
+        <h3>Languages and Tools:</h3>
 
-        <p align="center">
+        <p>
           <a
             href="https://www.w3schools.com/cs/"
             target="_blank"
@@ -216,12 +218,12 @@ class LessonsLearned extends Component {
           </a>
         </p>
 
-        <h3 align="center">Connect with me:</h3>
+        <h3>Connect with me:</h3>
 
-        <p align="center">
+        <p>
           <a href="https://linkedin.com/in/hildelio" target="blank">
             <img
-              align="center"
+            
               src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
               alt="hildelio"
               height="30"
@@ -230,7 +232,7 @@ class LessonsLearned extends Component {
           </a>
         </p>
 
-        <p align="center">
+        <p>
           <img
             src="https://komarev.com/ghpvc/?username=hildelio&label=Profile%20views&color=0e75b6&style=flat"
             alt="hildelio"
