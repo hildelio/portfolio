@@ -94,3 +94,49 @@ body {
 .App-projectsCard {
   margin: 2%;
 }
+
+@media(max-width: 500px) {
+  .nav-link{
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-link ul {
+    width: 0%;
+    list-style:none;
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+  }
+  .nav-link ul li {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .link{
+    text-decoration: none;
+    color: white;
+    font-size: 80%;
+  }
+  .video {
+    display: table;
+    width: 100%;
+    height: 100vh;
+    size: cover;
+  }
+  .App-lessons {
+    display: flex;
+    align-items: center;
+    align-content: center;
+  }
+  .lessons-itens, .lessons-tools, .foto, .TituloSub {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .avatar {
+  width: 40%;
+  height: 40%;
+  }
+}

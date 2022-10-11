@@ -5,7 +5,7 @@ class AboutMe extends Component {
     return (
       <div className="App-aboutMe">
         <div className="topo">
-          <div>
+          <div className="foto">
             <img
               className="avatar"
               src="https://avatars.githubusercontent.com/u/106602737?v=4"

@@ -21,25 +21,25 @@ class Header extends Component {
             <li>
               <Button variant="text">
                 <SourceIcon />
-                <Link to="/">Home</Link>
+                <Link to="/" className="link">Home</Link>
               </Button>
             </li>
             <li>
               <Button variant="text">
                 <SourceIcon />
-                <Link to="/about">About Me</Link>
+                <Link to="/about" className="link">About Me</Link>
               </Button>
             </li>
             <li>
               <Button variant="text">
                 <SourceIcon />
-                <Link to="/lessons-learned">Lessons Learned</Link>
+                <Link to="/lessons-learned" className="link">Lessons Learned</Link>
               </Button>
             </li>
             <li>
               <Button variant="text">
                 <SourceIcon />
-                <Link to="/projects">Projects</Link>
+                <Link to="/projects" className="link">Projects</Link>
               </Button>
             </li>
           </ul>

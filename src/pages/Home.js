@@ -4,7 +4,7 @@ import video from "../assets/video.mp4"
 class Home extends Component {
   render() {
     return (
-      <div>
+      <div className='video'>
         <video className='video' src={ video } autoPlay loop></video>
       </div>
     );
