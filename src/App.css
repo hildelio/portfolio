@@ -120,11 +120,14 @@ body {
   .link{
     font-size: 80%;
   }
-  .video-content{
+  /* .video-content{
     height: 100vh;
     width: 100vw;
     background-image: url(./assets/video.mp4);
     background-size: cover;
+  } */
+  .video {
+    display: table;
   }
   .App-lessons, .git-status-content, .git-streak-content {
     display: flex;
