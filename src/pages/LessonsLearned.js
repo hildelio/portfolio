@@ -57,32 +57,28 @@ class LessonsLearned extends Component {
           />
         </div>
 
-        <p>
-          <a href="(https://github.com/hildelio">
+          <a href="(https://github.com/hildelio" className="git-status-content">
             <img
               src="https://github-readme-stats.vercel.app/api?username=hildelio&count_private=true&theme=github_dark&show_icons=true"
               alt=""
+              className="git-status"
             />
           </a>
-        </p>
 
-        <p>
           <a href="https://github.com/hildelio/">
             <img
               src="https://github-readme-stats.vercel.app/api/top-langs/?username=hildelio&layout=compact&theme=github_dark&show_icons=true"
               alt=""
             />
           </a>
-        </p>
 
-        <p>
-          <a href="(https://github.com/hildelio">
+          <a href="(https://github.com/hildelio" className="git-streak-content">
             <img
               src="http://github-readme-streak-stats.herokuapp.com?user=hildelio&theme=github-dark&date_format=j%20M%5B%20Y%5D&border=FFFFFF"
               alt=""
+              className="git-streak"
             />
           </a>
-        </p>
 
         <h3>Languages and Tools:</h3>
 

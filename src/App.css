@@ -17,6 +17,11 @@ body {
   width: 100%;
   align-items: center;
   justify-content: space-around;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
   color: white;
 }
 .App-logo {
@@ -113,20 +118,19 @@ body {
     justify-content: space-evenly;
   }
   .link{
-    text-decoration: none;
-    color: white;
     font-size: 80%;
   }
-  .video {
-    display: table;
-    width: 100%;
+  .video-content{
     height: 100vh;
-    size: cover;
+    width: 100vw;
+    background-image: url(./assets/video.mp4);
+    background-size: cover;
   }
-  .App-lessons {
+  .App-lessons, .git-status-content, .git-streak-content {
     display: flex;
     align-items: center;
     align-content: center;
+    margin: 3% 0;
   }
   .lessons-itens, .lessons-tools, .foto, .TituloSub {
     display: flex;
@@ -138,5 +142,10 @@ body {
   .avatar {
   width: 40%;
   height: 40%;
+  }
+  .git-status, .git-streak {
+    width: 95%;
+    margin: auto;
+
   }
 }
