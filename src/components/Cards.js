@@ -10,7 +10,7 @@ import PropTypes from "prop-types";
 class Cards extends Component {
   render() {
     console.log(this.props.info.image);
-    const { title, image, description, link } = this.props.info;
+    const { title, image, description, githubLink, projectLink } = this.props.info;
     return (
       <Card className="App-projectsCard" sx={{ maxWidth: 345 }}>
         <CardMedia component="img" alt="images" height="200" image={ image } />
@@ -23,7 +23,8 @@ class Cards extends Component {
           </Typography>
         </CardContent>
         <CardActions>
-          <Button size="small" href={ link } target="_blank" >Learn More</Button>
+          <Button size="small" href={ githubLink } target="_blank" >Github</Button>
+          <Button size="small" href={ projectLink } target="_blank" >See Project</Button>
         </CardActions>
       </Card>
     );
