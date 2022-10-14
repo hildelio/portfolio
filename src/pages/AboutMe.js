@@ -23,7 +23,12 @@ class AboutMe extends Component {
           <li>🏡 Salvador - Brazil</li>
 
           <li>
-            📚 I'm studying web development at
+            📚 I'm studying analysis and systems development at {' '} 
+            <a href="https://estacio.br/">Universidade Estácio de Sá</a>
+            </li>
+
+          <li>
+            📚 I'm studying web development at{' '}
             <a href="https://www.betrybe.com/">Trybe</a>
           </li>
 
@@ -32,8 +37,21 @@ class AboutMe extends Component {
           </li>
 
           <li>
-            📫 How to reach me
+            📫 How to reach me{' '}
             <a href="mailto:hildelio@gmail.com">hildelio@gmail.com</a>
+            <ul>
+            <li>Connect with me:{' '}
+          <a href="https://linkedin.com/in/hildelio" target="blank">
+            <img
+              src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
+              alt="hildelio"
+              height="20"
+              width="20"
+            />
+          </a>
+          </li>
+            </ul>
+
           </li>
         </ul>
       </div>

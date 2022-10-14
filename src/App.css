@@ -63,6 +63,7 @@ body {
   align-items: flex-start;
   align-content: center;
   justify-content: center;
+  list-style: none;
 }
 
 .App-aboutMe {
