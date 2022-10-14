@@ -81,6 +81,11 @@ body {
   padding: 4%;
 }
 
+.video-content {
+  width: 100%;
+  height: 100%;
+}
+
 .video {
   width: 100%;
   height: 100%;
@@ -127,7 +132,9 @@ body {
     background-size: cover;
   } */
   .video {
-    display: table;
+    margin-bottom: 500px;
+    height: 1000px;
+    width: 1780px;
   }
   .App-lessons, .git-status-content, .git-streak-content {
     display: flex;
