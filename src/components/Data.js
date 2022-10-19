@@ -8,6 +8,8 @@ import shoppingCart from "../assets/shoppingCart.gif";
 import solarsystem from "../assets/solarsystem.jpg"
 import tryunfo from "../assets/tryunfo.png"
 import trybetunes from "../assets/trybetunes.png"
+import hzc from "../assets/hzc.gif"
+
 const contents = [
   {
     id: 1,
@@ -85,6 +87,14 @@ const contents = [
     description: "O objetivo deste projeto foi criar o TrybeTunes, uma aplicação capaz de reproduzir músicas das mais variadas bandas e artistas, criar uma lista de músicas favoritas e editar o perfil da pessoa usuária logada. Essa aplicação capaz de: Fazer login; Pesquisar por uma banda ou artista; Listar os álbuns disponíveis dessa banda ou artista; Visualizar as músicas de um álbum selecionado; Reproduzir uma prévia das músicas deste álbum; Favoritar e desfavoritar músicas; Ver a lista de músicas favoritas; Ver o perfil da pessoa logada; Editar o perfil da pessoa logada;",
     githubLink: "https://github.com/hildelio/trybetunes",
     projectLink: "https://projecttrybetunes.vercel.app/",
+  },
+  {
+    id: 11,
+    title: "Project HZC",
+    image: hzc,
+    description: "O objetivo deste projeto foi aprofundar os conceitos de CSS trabalhando em um projeto em HTML e CSS utilizando a metodologia mobile first, respeitando conceitos de acessibilidade, responsividade e código limpo.",
+    githubLink: "https://github.com/hildelio/HZC",
+    projectLink: "https://hzc-sooty.vercel.app/",
   },
 
 ]
