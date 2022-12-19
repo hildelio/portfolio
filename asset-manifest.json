@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.1d75157b.css",
+    "main.js": "/portfolio/static/js/main.dc582276.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/video.mp4": "/portfolio/static/media/video.7e0589fa5f3cab70471e.mp4",
+    "static/media/hzc.gif": "/portfolio/static/media/hzc.d9a02df3c3a83640bd24.gif",
+    "static/media/solarsystem.jpg": "/portfolio/static/media/solarsystem.92d20bcc4783e1de3df5.jpg",
+    "static/media/pixelart.png": "/portfolio/static/media/pixelart.b14c2a97f271a90b0680.png",
+    "static/media/zoofunctions.png": "/portfolio/static/media/zoofunctions.595eace4ff3d48b4fd20.png",
+    "static/media/trybetunes.png": "/portfolio/static/media/trybetunes.e066c2183201d2d26a94.png",
+    "static/media/playgroundfunctions.png": "/portfolio/static/media/playgroundfunctions.c219612c1b0e9c24d571.png",
+    "static/media/unittests.png": "/portfolio/static/media/unittests.431b6a69080f9af8f25b.png",
+    "static/media/shoppingCart.gif": "/portfolio/static/media/shoppingCart.24c7221118c8e5a1c807.gif",
+    "static/media/lessonslearned.png": "/portfolio/static/media/lessonslearned.3a399181a186a0810552.png",
+    "static/media/trybewarts.png": "/portfolio/static/media/trybewarts.934fc909c8fb56af1a97.png",
+    "static/media/tryunfo.png": "/portfolio/static/media/tryunfo.a7c4e86aa40c612dd8b5.png",
+    "index.html": "/portfolio/index.html",
+    "main.1d75157b.css.map": "/portfolio/static/css/main.1d75157b.css.map",
+    "main.dc582276.js.map": "/portfolio/static/js/main.dc582276.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d75157b.css",
+    "static/js/main.dc582276.js"
+  ]
+}
