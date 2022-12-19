@@ -14,7 +14,7 @@ class Content extends Component {
           <Route path="/about" component={AboutMe} />
           <Route path="/lessons-learned" component={LessonsLearned} />
           <Route path="/projects" component={Projects} />
-          <Route exact path="/" component={Home} />
+          <Route exact path="/portfolio" component={Home} />
           <Route path="*" component={Error} />
         </Switch>
       </div>
