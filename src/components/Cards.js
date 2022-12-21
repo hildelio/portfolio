@@ -9,7 +9,6 @@ import PropTypes from "prop-types";
 
 class Cards extends Component {
   render() {
-    console.log(this.props.info.image);
     const { title, image, description, githubLink, projectLink } = this.props.info;
     return (
       <Card className="App-projectsCard" sx={{ maxWidth: 345 }}>
@@ -24,7 +23,9 @@ class Cards extends Component {
         </CardContent>
         <CardActions>
           <Button size="small" href={ githubLink } target="_blank" >Github</Button>
-          <Button size="small" href={ projectLink } target="_blank" >See Project</Button>
+          {
+            projectLink &&  <Button size="small" href={ projectLink } target="_blank" >See Project</Button>
+          }
         </CardActions>
       </Card>
     );

@@ -1,7 +1,4 @@
-html {
-  height: 100%;
-  width: 100%;
-}
+
 body {
   background-color: gray;
   width: 100%;
@@ -121,6 +118,9 @@ body {
 }
 
 .App-projectsCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   margin: 2%;
 }
 
