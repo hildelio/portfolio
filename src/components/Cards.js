@@ -3,9 +3,10 @@ import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
-import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import PropTypes from "prop-types";
+import GitHubIcon from '@mui/icons-material/GitHub';
+import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
 class Cards extends Component {
   render() {
@@ -13,7 +14,7 @@ class Cards extends Component {
     return (
       <Card className="App-projectsCard" sx={{ maxWidth: 345 }}>
         <CardMedia component="img" alt="images" height="200" image={ image } />
-        <CardContent>
+        <CardContent className="card-content">
           <Typography gutterBottom variant="h5" component="div">
             {title}
           </Typography>
@@ -21,10 +22,10 @@ class Cards extends Component {
             {description}
           </Typography>
         </CardContent>
-        <CardActions>
-          <Button size="small" href={ githubLink } target="_blank" >Github</Button>
+        <CardActions className="card-actions">
+          <GitHubIcon size="small" href={ githubLink } target="_blank" />
           {
-            projectLink &&  <Button size="small" href={ projectLink } target="_blank" >See Project</Button>
+            projectLink &&  <OpenInNewIcon size="small" href={ projectLink } target="_blank" aria_label='deploy'/>
           }
         </CardActions>
       </Card>
